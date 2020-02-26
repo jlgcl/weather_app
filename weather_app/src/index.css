@@ -1,0 +1,44 @@
+h1 {
+  align-content: center;
+  margin-left: 35%;
+}
+
+
+.input {
+  border: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  background: rgb(238, 255, 0);
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 2em;
+  padding: 20px 10px;
+}
+
+button {
+  margin-left: 50px;
+}
+
+.dayDisp {
+  display: flex;
+  border: solid;
+  border-width: 10px;
+  border-radius: 5px;
+  background: rgb(134, 119, 119);
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  padding: 60px 350px;
+  padding-left: 85px;
+}
+
+.day {
+  font-size: 12px;
+  border: solid;
+  border-width: 5px;
+  background: rgb(156, 201, 231);
+  align-content: left;
+  margin-left: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
