@@ -1,3 +1,9 @@
+body {
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h1 {
   align-content: center;
   margin-left: 35%;
@@ -5,14 +11,15 @@ h1 {
 
 
 .input {
-  border: solid;
   border-width: 5px;
   border-radius: 5px;
-  background: rgb(238, 255, 0);
+  background: rgb(250, 244, 244);
   margin-left: 33%;
   margin-right: 33%;
   margin-top: 2em;
   padding: 20px 10px;
+  opacity: 0.9;
+  box-shadow: 2px 2px 2px grey;
 }
 
 button {
@@ -20,25 +27,65 @@ button {
 }
 
 .dayDisp {
-  display: flex;
-  border: solid;
-  border-width: 10px;
-  border-radius: 5px;
-  background: rgb(134, 119, 119);
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 5%;
-  padding: 60px 350px;
-  padding-left: 85px;
+  border-width: 1px;
+  border-radius: 8px;
+  background: rgb(221, 227, 233);
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+  padding: 60px 250px;
+  padding-left: 50px;
+  padding-top: 20px;
+  opacity: 0.9;
+  box-shadow: 2px 2px 2px grey;
+  text-align: left;
 }
 
-.day {
+/* .day {
   font-size: 12px;
-  border: solid;
-  border-width: 5px;
-  background: rgb(156, 201, 231);
+  border-width: 1px;
+  border-radius: 10px;
+  background: rgb(196, 228, 250);
   align-content: left;
   margin-left: 10px;
   padding-left: 50px;
   padding-right: 50px;
+  box-shadow: 2px 2px 2px grey;
+} */
+
+#city {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.box {
+  display: flex;
+}
+
+#box1 {
+  float: left;
+  border: solid;
+  border-width: 2px;
+  border-radius: 20px;
+  padding-right: 40px;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+
+#temp {
+  border: solid;
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-left: 25px;
+  border-width: 2px;
+  margin-left: 20%;
+  margin-right: -70%;
+  float: right;
+}
+
+#extra { 
+  margin-top: 10px;
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 15px;
 }
